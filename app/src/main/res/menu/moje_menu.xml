@@ -26,7 +26,7 @@
                 android:id="@+id/action_3"
                 android:icon="@drawable/norwegia"
                 android:orderInCategory="300"
-                android:title="Norwegia"
+                android:title="Finlandia"
                 app:showAsAction="withText" />
 
         </menu>
