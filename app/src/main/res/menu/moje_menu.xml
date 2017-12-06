@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.marcin.menuopcji.MainActivity">
+
+    <item android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/burundi">
+
+        <menu>
+            <item
+                android:id="@+id/action_1"
+                android:icon="@drawable/rosja"
+                android:orderInCategory="100"
+                android:title="Rosja"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_2"
+                android:icon="@drawable/polska"
+                android:orderInCategory="200"
+                android:title="Polska"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_3"
+                android:icon="@drawable/norwegia"
+                android:orderInCategory="300"
+                android:title="Norwegia"
+                app:showAsAction="withText" />
+
+        </menu>
+
+
+    </item>
+
+</menu>
